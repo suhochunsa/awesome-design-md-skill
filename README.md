@@ -1,36 +1,12 @@
+# Awesome DESIGN.md Skill
 
-<a href="https://github.com/VoltAgent/voltagent">
-     <img width="1500"  alt="claude-skills" src="https://cdn.voltagent.dev/awesome-repo/logo.json.svg" />
-</a>
+이 저장소는 [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)의 포크입니다. 원본의 DESIGN.md 컬렉션에 **Codex와 Claude Code용 마켓플레이스 및 공유 스킬**을 추가해, 원하는 디자인 스타일을 쉽게 설치하고 사용할 수 있도록 구성했습니다.
 
+마켓플레이스에서 `design-styles` 플러그인을 설치한 뒤 “애플 느낌으로 바꿔줘” 또는 “Stripe 스타일로 만들어줘”처럼 요청하면, 공유 스킬이 해당 DESIGN.md를 참고해 UI를 만들거나 수정합니다.
 
-<br/>
-<br/>
+디자인 문서를 프로젝트에 직접 복사할 필요 없이, 플러그인에 포함된 스타일 문서를 두 환경에서 함께 사용할 수 있습니다.
 
-<div align="center">
-    <strong>Curated collection of DESIGN.md analysis by developer focused websites.</strong>
-    <br />
-    <br />
-
-</div>
-
-<div align="center">
-
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![DESIGN.md Count](https://img.shields.io/badge/DESIGN.md%20count-84-10b981?style=classic)
-[![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-design-md?label=Last%20update&style=classic)](https://github.com/VoltAgent/awesome-design-md)
-[![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
-[![Official MCP Servers](https://img.shields.io/badge/Official-MCP%20Servers-c2410c?style=classic&logo=github&logoColor=white&labelColor=24292f)](https://github.com/VoltAgent/official-mcp-servers)
-
-</div>
-</div>
-
-# Awesome DESIGN.md
-
-Copy a DESIGN.md into your project, tell your AI agent “build me a page that looks like this,” and generate high-quality UI that stays visually consistent with the design language.
-
-Built with real design depth — including analyzed patterns, tokens, and rules — for high-quality UI generation, not surface-level outputs.
-
+원본 디자인 분석과 컬렉션의 출처는 [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)입니다. 이 포크에서 추가한 기능은 마켓플레이스 설정, 공유 스킬, 설치 및 사용 안내입니다.
 
 ## Use with Codex and Claude Code
 
