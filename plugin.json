@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "design-styles",
+  "version": "0.1.0",
+  "description": "Build or restyle interfaces using DESIGN.md references."
+}

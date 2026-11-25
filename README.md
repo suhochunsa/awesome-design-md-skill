@@ -32,6 +32,43 @@ Copy a DESIGN.md into your project, tell your AI agent “build me a page that l
 Built with real design depth — including analyzed patterns, tokens, and rules — for high-quality UI generation, not surface-level outputs.
 
 
+## Use with Codex and Claude Code
+
+Both hosts share `skills/apply/SKILL.md` and the bundled `design-md/<style>/DESIGN.md` files. Style paths resolve relative to the skill file, so no host-specific environment variable is required. Keep the whole plugin folder together; copying only `SKILL.md` breaks the reference paths.
+
+### Codex
+
+From a local checkout, register the repository root as a marketplace:
+
+```bash
+codex plugin marketplace add .
+codex plugin add design-styles@awesome-design-md-marketplace
+```
+
+Alternatively, open the Plugins Directory in the ChatGPT desktop app, select **Awesome Design MD**, and install **design-styles**. Restart the app if the marketplace does not appear, then start a new conversation.
+
+The repo marketplace is `.agents/plugins/marketplace.json`; its local source `./` points to this repository's root `plugin.json`.
+
+### Claude Code
+
+From a local checkout:
+
+```bash
+claude plugin marketplace add .
+claude plugin install design-styles@awesome-design-md-marketplace
+```
+
+After these files have been pushed to GitHub, install from a Claude Code session with:
+
+```text
+/plugin marketplace add suhochunsa/awesome-design-md-skill
+/plugin install design-styles@awesome-design-md-marketplace
+```
+
+### Request a style
+
+Ask naturally, for example, "애플 느낌으로 바꿔줘" or "make this Stripe-inspired". In Claude Code you can also invoke `/design-styles:apply` explicitly. The skill description retains "구글 풍으로 만들어줘" as a discovery example, but there is currently no bundled Google style document; the skill asks how to proceed when a requested reference is missing.
+
 ## What is DESIGN.md?
 
 [DESIGN.md](https://stitch.withgoogle.com/docs/design-md/overview/) is a new concept introduced by Google Stitch. A plain-text design system document that AI agents read to generate consistent UI.

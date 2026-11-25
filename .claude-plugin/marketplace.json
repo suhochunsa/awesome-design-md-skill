@@ -1,0 +1,12 @@
+{
+    "name": "awesome-design-md-marketplace",
+    "description": "UI design styles shared by Codex and Claude Code.",
+    "owner":{"name":"suhochunsa"},
+    "plugins": [
+        {
+            "name": "design-styles",
+            "source":"./",
+            "description":"Apply DESIGN.md references to project interfaces."
+        }
+    ]
+}
