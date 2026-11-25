@@ -1,6 +1,7 @@
 {
     "name": "design-styles",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Build or restyle interfaces using design references.",
-    "author": {"name":"suhochunsa"}
+    "author": {"name":"suhochunsa"},
+    "icon": "./assets/icon.png"
 }

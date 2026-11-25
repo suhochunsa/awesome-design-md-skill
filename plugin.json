@@ -1,6 +1,17 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "design-styles",
-  "version": "0.1.0",
-  "description": "Build or restyle interfaces using DESIGN.md references."
+  "version": "0.1.1",
+  "description": "Build or restyle interfaces using DESIGN.md references.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Design Styles",
+        "shortDescription": "Build interfaces with curated DESIGN.md styles.",
+        "brandColor": "#a795ff",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
 }
